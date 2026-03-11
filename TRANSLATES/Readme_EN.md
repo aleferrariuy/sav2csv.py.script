@@ -1,6 +1,6 @@
 # sav2csv.py.script
 
-[Traducir al Español](../Readme.md)
+[Traducir al Español](/Readme.md)
 
 Script that translates a SAV file (statistical database) to CSV (comma-separated values)
 
