@@ -38,7 +38,7 @@ def convertir_sav_a_csv(ruta_archivo_sav):
     try:
         # --- 4. Leer el archivo .SAV usando pyreadstat ---
         # pyreadstat.read_sav devuelve un dataframe de pandas y un objeto de metadatos.
-        # Solo necesitamos el dataframe, por eso usamos df, _
+        # Solo necesitamos el dataframe incluido en el SAV. Por eso usamos df, _
         df, meta = pyreadstat.read_sav(ruta_archivo_sav)
 
         # --- 5. Guardar el DataFrame como un archivo CSV ---
